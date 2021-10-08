@@ -1,7 +1,7 @@
 var http = require("http");
 var fs = require("fs");
 var hostname = "localhost";
-var port =3000;
+var port =process.env.PORT || 3000;
 var server = http.createServer(function(req, res){
     res.writeHead(200, {'Content-Type': 'text/html'});
     switch (req.url){
@@ -25,6 +25,7 @@ var server = http.createServer(function(req, res){
     }
     
 
-}); server.listen(port, hostname, ()=>{
+}); server.listen(port,
+                  ()=>{
     console.log (`Server running at  http://${hostname}:${port}/`);
 });
