@@ -1,0 +1,38 @@
+{ 
+
+    "name": "coolnodeapp", 
+  
+    "version": "1.0.0", 
+  
+    "description": "node web ", 
+  
+    "main": "nodeweb.js", 
+  
+    "scripts": { 
+  
+    "start": "node nodeweb.js" 
+  
+  }, 
+  
+    "repository": { 
+  
+    "type": "git", 
+  
+    "url": "" 
+  
+  }, 
+  
+    "author": "", 
+  
+    "license": "ISC", 
+  
+    "bugs": { 
+  
+    "url": "" 
+  
+  }, 
+  
+    "homepage": "" 
+  
+  }
+  
